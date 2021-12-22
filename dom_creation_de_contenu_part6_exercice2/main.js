@@ -30,7 +30,7 @@ newli.innerText = "보라해"
 ul2.append(newli)
 let btn = document.querySelectorAll("input")[3]
 btn.addEventListener("click", function(){
-    ul2.replaceChild(ul2.lastElementChild, li[1])
+    ul2.replaceChild(newli, li[1])
 })
 
 //*Exo5
