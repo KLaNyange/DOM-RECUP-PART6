@@ -5,6 +5,8 @@ let h2 = document.createElement("h2")
 h2.innerText = "Part 6 - Exercice 1"
 div.append(h2)
 
+
+
 //*Exo2
 let p = document.createElement("p")
 p.innerText = "lorem ipsum"
@@ -14,6 +16,7 @@ div.append(p)
 let h1 = document.createElement("h1")
 h1.innerText = "Le DOM - Création de HTML"
 div.prepend(h1)
+// div.insertBefore(h1, div.firstChild) //methode de Isma
 
 //*Exo4
 let div2 = document.getElementById("secondaire")

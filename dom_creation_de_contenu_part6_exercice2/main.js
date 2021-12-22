@@ -40,8 +40,7 @@ let btn2 = document.querySelectorAll("input")[5]
 function replace() {
     let newbi = document.createElement("li")
     newbi.innerText = txt.value
-    ul2.append(newbi)
-    ul2.replaceChild(ul2.lastElementChild, li[2])
+    ul2.replaceChild(newbi, li[2])
 }
 // function replace() {
 //     ul2.children[2].innerText = txt.value
